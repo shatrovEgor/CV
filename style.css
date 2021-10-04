@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap');
+
+body {
+    background: #f6f6f6;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: 50;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 0;
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+}
+
+.header {
+    position: relative;
+    height: 400px;
+}
+
+.avatar {
+    position: absolute;
+    left: 75px;
+    top: 50px;
+    width: 300px;
+    border-radius: 25% 10%;
+    box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.25);
+}
+
+.line {
+    height: 65px;
+    background: #ffdd2d;
+    border-top: 1px solid #ffdd2d;
+    border-radius: 10%;
+}
+
+.header p {
+    position: absolute;
+    font-style: italic;
+    font-size: 46px;
+    left: 500px;
+    top: 90px;
+}
+
+.text {
+    margin: 11px 0px 0px 75px;
+    font-size: 2em;
+}
+
+.list {
+    list-style-type: disc;
+    font-size: 24px;
+    margin: 20px 0 20px 75px;
+}
+
+.window {
+    position: relative;
+    height: 600px;
+    width: 900px;
+    margin: 50px auto 50px auto;
+    border: 1px solid black;
+}
+
+
+
+.box {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: #dadada;
+}
+
+.mail {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 55px;
+    right: 64px;
+}
+
+.skills {
+    height: 300px;
+}
+
