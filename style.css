@@ -15,14 +15,15 @@ body {
 
 .header {
     position: relative;
-    height: 400px;
+    height: 420px;
 }
 
 .avatar {
     position: absolute;
     left: 75px;
     top: 50px;
-    width: 300px;
+    width: 330px;
+    height: 330px;
     border-radius: 25% 10%;
     box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.25);
 }
@@ -31,7 +32,8 @@ body {
     height: 65px;
     background: #ffdd2d;
     border-top: 1px solid #ffdd2d;
-    border-radius: 10%;
+    border-radius: 30px;
+    margin: 0 5px;
 }
 
 .header p {
@@ -53,16 +55,6 @@ body {
     margin: 20px 0 20px 75px;
 }
 
-.window {
-    position: relative;
-    height: 600px;
-    width: 900px;
-    margin: 50px auto 50px auto;
-    border: 1px solid black;
-}
-
-
-
 .box {
     position: fixed;
     bottom: 40px;
@@ -72,6 +64,12 @@ body {
     border-radius: 50%;
     box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.25);
     background-color: white;
+    transition: all 0.3s ease;
+}
+
+.box.hover {
+    height: 85px;
+    width: 85px;
 }
 
 .mail {
@@ -81,6 +79,13 @@ body {
     bottom: 52px;
     right: 62px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mail.hover {
+  opacity: 0.8;
+  height: 60px;
+  width: 60px;
 }
 
 /* Форма*/
@@ -103,7 +108,7 @@ body {
     top: 0;
     left: 0;
     background: rgba(17, 17, 17, 0.5);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     display: none;
   }
   
@@ -120,12 +125,22 @@ body {
     border-radius: 10px;
     max-width: 588px;
     width: 100%;
-    max-height: 420px;
+    max-height: 480px;
     height: 100%;
   }
   
   .popup__wrapper {
-    padding: 20px 40px;
+    padding: 20px;
+  }
+
+  .contact {
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .contact p {
+    margin: 10px;
   }
  
   .form-group {
@@ -160,15 +175,151 @@ body {
     background-color: #ccc;
     color: black;
     margin: 0px 10px;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border-radius: 10px;
     cursor: pointer;
     font-family: inherit;
+    font-size: 18px;
   }
 
   .btn:hover {
     opacity: 0.8;
   }
+
+/* Social */
+
+  .linkBtn {
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #f6f6f6;
+    padding: 0;
+  }
+
+  .imageLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+  } 
+
+  .formLink {
+    display: inline;
+    margin: 2px;
+  }
+
+  .social{
+    margin: 0;
+    display: inline;
+    font-size: 24px;
+    width: 100px;
+  }
+  
+  .social p {
+    margin: 20px 0 10px 75px;
+    font-size: 26px;
+  }
+
+  .forma {
+    margin:  0 80px;
+  }
+
+  /* slider image */
+
+  .window {
+    position: relative;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.slider-prev,
+.slider-next {
+  background: none;
+    border-radius: 50%;
+    font-size: .9rem;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.25);;
+}
+
+.slider-prev {
+  position: absolute;
+  top: 200px;
+  left: 40px;
+}
+
+.image-prev {
+  position: absolute;
+  top: 9px;
+  right: 14px;
+  height: 50px;
+}
+
+.slider-next {
+  position: absolute;
+  top: 200px;
+  right: 40px;
+}
+
+.image-next {
+  position: absolute;
+  top: 9px;
+  left: 14px;
+  height: 50px;
+}
+
+.slider {
+  box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 800px;
+  height: 450px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  width: 3200px;
+  height: 450px;
+  display: flex;
+  background: orange;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.one {
+  width: 800px;
+}
+
+/* slider-text */
+
+.slider-text {
+  height: 100px;
+}
+
+.slider-text p{
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.link {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+}
+
+.link a{
+  font-size: 20px;
+}
 
 
