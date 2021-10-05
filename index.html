@@ -7,27 +7,62 @@
 </head>
 <body>
     <div class="container">
-        <div class="box"></div>
-        <img src="mail.png" class="mail">
-        <div class="header">
-        <img src="avatar.jpg" alt="My photo" class="avatar">
-        <p>Hi! My name is Egor Shatrov <br>&nbsp and i Junior frontend-developer </p>
+            <div class="box"></div>
+            <img src="mail.png" class="mail">
+            <div class="header">
+            <img src="avatar.jpg" alt="My photo" class="avatar">
+            <p>Hi! My name is Egor Shatrov <br>&nbsp and i Junior frontend-developer </p>
+        </div>
+        <div class="line">
+            <h1 class="text">My education:</h1>
+        </div>
+        <ol class="list">
+            <li>BMSTU</li>
+            <li>My school: kfml</li>
+        </ol>
+        <div class="line">
+            <h2 class="text">My projects:</h2>
+        </div>
+        <div class="window"></div>
+        <div class="line">
+            <h2 class="text">My skills:</h2>
+        </div>
+        <div class="skills">
+        </div>
     </div>
-    <div class="line">
-        <h1 class="text">My education:</h1>
-    </div>
-    <ol class="list">
-        <li>BMSTU</li>
-        <li>My school: kfml</li>
-    </ol>
-    <div class="line">
-        <h2 class="text">My projects:</h2>
-    </div>
-    <div class="window"></div>
-    <div class="line">
-        <h2 class="text">My skills:</h2>
-    <div class="skills"></div>
-    </div>
+    <!-- Вспылвающая форма -->
+    <div class="popup">
+        <div class="popup__container">
+          <div class="popup__wrapper">
+            <div id="form">
+              <form role="form" action="/requestFine" autocomplete="off" method="POST">
+                <div class="form-group">
+                <label>Имя:</label>
+                <input type="text" name="nameReq" placeholder="Введите имя">
+              </div>
+              <div class="form-group">
+                <label>Фамилия:</label>
+                <input type="text" name="lastNameReq">
+              </div>
+              <div class="form-group">
+                <label>Телефон:</label>
+                <input type="text" name="telReq">
+              </div>
+              <div class="form-group">
+                <label>Организация:</label>
+                <input type="text" name="textReq">
+              </div>
+              <div class="form-group">
+                <label for="text">Ваше сообщение:</label>
+                <textarea id="text" cols="62" rows="2"></textarea>
+              </div>
+                <button type="submit" class="btn btn-success">Отправить</button>
+                <button type="button" class="btn btn-cancel">Закрыть</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="app.js"></script>
 </body>
 </html>
