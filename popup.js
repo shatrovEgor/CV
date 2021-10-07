@@ -3,6 +3,7 @@ const box = document.querySelector('.box')
 const form = document.querySelector('#form');
 const popup = document.querySelector('.popup');
 const btnCancel = document.querySelector('.btn-cancel')
+const btnSuccsess = document.querySelector('.btn-success')
 
 btn.addEventListener('mouseover', (event) => {
     console.log('go')
@@ -23,4 +24,10 @@ btn.addEventListener('click', (event) => {
 btnCancel.addEventListener('click', (event) => {
     form.classList.remove('open');
     popup.classList.remove('popup_open');
+})
+
+btnSuccsess.addEventListener('click', (event) =>{
+    popup.classList.remove('popup_open')
+    alert('Реально думал отправишь?')
+    alert('Мда кролик')
 })

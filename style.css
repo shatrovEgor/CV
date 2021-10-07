@@ -88,7 +88,7 @@ body {
   width: 60px;
 }
 
-/* Форма*/
+/* ---------------------------Форма------------------------------*/
 
 #form {
     display: none;
@@ -315,11 +315,36 @@ body {
 .link {
   margin-right: auto;
   margin-left: auto;
-  width: 50px;
+  width: 90px;
 }
 
 .link a{
   font-size: 20px;
 }
 
+/* lamp */
+.lamp {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.lamp:hover {
+  opacity: 0.8;
+}
+
+.lamp-off {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 40px;
+  cursor: pointer;
+  display:none;
+}
+
+.lamp-off:hover {
+  opacity: 0.8;
+}
 
