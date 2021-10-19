@@ -1,6 +1,11 @@
 let offset = 0;
 const sliderLine = document.querySelector('.slider-line');
-const arr = ['This project about... Project1','This project about... Project2','This project about... Project3','This project about... Project4']
+const arr2 = [
+    {main:'Project1', link: 'https://silly-leavitt-8c876f.netlify.app'},
+    {main:'Project2', link: 'https://hh.ru/applicant/favorite_vacancies?hhtmFrom=resume_list&hhtmFromLabel=header&page=1'},
+    {main:'Project3', link: 'https://www.youtube.com/'},
+    {main:'Project4', link: 'https://www.twitch.tv/directory'}
+]
 let clicker = 0
 
 document.querySelector('.slider-next').addEventListener('click', function(){
@@ -13,7 +18,9 @@ document.querySelector('.slider-next').addEventListener('click', function(){
     }
     clicker += 1 
     sliderLine.style.left = -offset + 'px';
-    document.getElementById('p1').innerHTML = arr[clicker]
+    document.getElementById('p1').innerHTML = arr2[clicker].main
+    document.getElementById('aLink').innerHTML = arr2[clicker].link
+    document.getElementById('aLink').href = arr2[clicker].link
 });
 
 document.querySelector('.slider-prev').addEventListener('click', function () {
@@ -26,6 +33,8 @@ document.querySelector('.slider-prev').addEventListener('click', function () {
     }
     clicker -= 1
     sliderLine.style.left = -offset + 'px';
-    document.getElementById('p1').innerHTML = arr[clicker]
+    document.getElementById('p1').innerHTML = arr2[clicker].main
+    document.getElementById('aLink').innerHTML = arr2[clicker].link
+    document.getElementById('aLink').href = arr2[clicker].link
 });
 

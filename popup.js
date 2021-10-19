@@ -28,6 +28,5 @@ btnCancel.addEventListener('click', (event) => {
 
 btnSuccsess.addEventListener('click', (event) =>{
     popup.classList.remove('popup_open')
-    alert('Реально думал отправишь?')
-    alert('Мда кролик')
+    alert('Ошибка, отправка формы в разработке')
 })

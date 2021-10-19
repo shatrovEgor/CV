@@ -21,4 +21,6 @@ lampBackDark.addEventListener('click', (event) =>{
     body.style.background = '#f6f6f6'  
     body.style.color = '#0f141e'
     forma.style.background = '#f6f6f6'
+    slidePrev.style.background = '#f6f6f6'
+    slideNext.style.background = '#f6f6f6'
 })
