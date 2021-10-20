@@ -4,7 +4,7 @@ const arr2 = [
     {main:'The iconic snake game. Used only html/css/JS', link: 'https://jsfiddle.net/shatrov_egor/4kdbus3v/12/'},
     {main:'A mini game to train your aim. Used only html/css/JS', link: 'https://jsfiddle.net/shatrov_egor/np79xugy/1/'},
     {main:'Posts list on VUE. A training project in which the main cases are implemented', link: 'https://silly-leavitt-8c876f.netlify.app'},
-    {main:'A project similar to the previous one implemented on React', link: 'https://blissful-dijkstra-da0e47.netlify.app/login'}
+    {main:'A project similar to the previous one implemented on React', link: 'https://blissful-dijkstra-da0e47.netlify.app'}
 ]
 let clicker = 0
 
