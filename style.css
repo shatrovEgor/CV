@@ -52,7 +52,7 @@ body {
 
 .list {
     list-style-type: disc;
-    font-size: 24px;
+    font-size: 26px;
     margin: 20px 0 20px 75px;
 }
 
@@ -81,6 +81,12 @@ body {
     right: 62px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.em {
+  margin: 10px 75px;
+  font-weight: normal;
+  font-size: 26px;
 }
 
 .mail.hover {
@@ -248,7 +254,7 @@ body {
   }
   
   .social p {
-    margin: 20px 0 10px 75px;
+    margin: 5px 0 10px 75px;
     font-size: 26px;
   }
 

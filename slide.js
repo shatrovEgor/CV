@@ -1,10 +1,10 @@
 let offset = 0;
 const sliderLine = document.querySelector('.slider-line');
 const arr2 = [
-    {main:'Project1', link: 'https://silly-leavitt-8c876f.netlify.app'},
-    {main:'Project2', link: 'https://hh.ru/applicant/favorite_vacancies?hhtmFrom=resume_list&hhtmFromLabel=header&page=1'},
-    {main:'Project3', link: 'https://www.youtube.com/'},
-    {main:'Project4', link: 'https://www.twitch.tv/directory'}
+    {main:'Snake', link: 'https://jsfiddle.net/shatrov_egor/4kdbus3v/12/'},
+    {main:'Aim', link: 'https://jsfiddle.net/shatrov_egor/np79xugy/1/'},
+    {main:'Vue', link: 'https://silly-leavitt-8c876f.netlify.app'},
+    {main:'React', link: 'https://blissful-dijkstra-da0e47.netlify.app/login'}
 ]
 let clicker = 0
 
